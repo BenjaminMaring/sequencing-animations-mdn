@@ -31,7 +31,7 @@ const spinning = {
   })
 
 //There is specific terminology used with promises. a promise has three states that it can be in. it is either: 
-// -pending: the function that the promise is associated with is yet to finish
+// - pending: the function that the promise is associated with is yet to finish
 // - fullfilled: the functioned has finished, and most importantly it has succeded, the promise becomes fullfilled. when this happens, it calls the .then() method and performs whatever method you have given it.
 // - rejected: the function has finished, and it has failed for whatever reasons
 
@@ -51,7 +51,7 @@ promise1.then(() => {
   })
 })
 
-//Since the .then() itself also returns a promise, you can rewrite the above code as the following
+//Since the .then() itself also returns a promise, you can rewrite the above code as the following, in an easier better to read format
 
 const promise5 = box.animate(rotate, spinning).finished;
 

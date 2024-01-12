@@ -1,5 +1,4 @@
 //code  lines 2-16 given by mdn https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Sequencing_animations
-
 const aliceTumbling = [
   { transform: 'rotate(0) scale(1)' },
   { transform: 'rotate(360deg) scale(0)' }
